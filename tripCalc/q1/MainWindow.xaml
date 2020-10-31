@@ -1,0 +1,141 @@
+﻿<Window x:Class="q1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:q1"
+        mc:Ignorable="d"
+        Icon="/jetski.png"
+    Title="Joe's Jet Ski Rentals" Height="800" Width="400" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisConverter" />
+    </Window.Resources>
+    <!--Tony Kwak-->
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="OldLace"/>
+            <!--<ImageBrush ImageSource="water.jpg" Stretch="None" Opacity="0.15"></ImageBrush>-->
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="97*"/>
+            <ColumnDefinition Width="295*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="38*"/>
+                <RowDefinition Height="126*"/>
+                <RowDefinition Height="38*"/>
+                <RowDefinition Height="100*"/>
+                <RowDefinition Height="404*"/>
+                <RowDefinition Height="63*"/>
+            </Grid.RowDefinitions>
+
+            <Label FontSize="15" Content="Please select a seat option" FontWeight="Bold" Grid.Row="0" Grid.Column="0"/>
+            <ListBox FontWeight="DemiBold" Opacity="0.6" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Seats}" SelectedItem="{Binding SelectedSeat}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Label FontSize="15" Grid.Column="0" Content="{Binding Description}"/>
+                            <Label FontSize="15" Grid.Column="1" Content="{Binding Price}" HorizontalContentAlignment="Right" ContentStringFormat="C"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Label FontSize="15" Grid.Row="2" Content="Prices for available jackets" FontWeight="Bold" Grid.Column="0"/>
+            <StackPanel Grid.Row="3">
+                <Label Margin="12 0 0 0" FontSize="15" Content="Basic $10"></Label>
+                <Label Margin="12 0 0 0" FontSize="15" Content="Standard $15"></Label>
+                <Label Margin="12 0 0 0" FontSize="15" Content="Deluxe $20"></Label>
+            </StackPanel>
+
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="97*"/>
+                    <ColumnDefinition Width="99*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height=".5*"/>
+                    <RowDefinition Height=".5*"/>
+                    <RowDefinition Height=".5*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+
+                <Label FontSize="15" Grid.Row="0" Grid.ColumnSpan="2" FontWeight="Bold" Content="Please select the number of days"/>
+                <StackPanel HorizontalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="2" Height="30" Orientation="Horizontal" Margin="32,8,32,7">
+                    <RadioButton FontSize="15" Margin="10 0 10 0" Content="1" IsChecked="{Binding OneDay}"/>
+                    <RadioButton FontSize="15" Margin="10 0 10 0" Content="2" IsChecked="{Binding TwoDay}"/>
+                    <RadioButton FontSize="15" Margin="10 0 10 0" Content="3" IsChecked="{Binding ThreeDay}"/>
+                    <RadioButton FontSize="15" Margin="10 0 10 0" Content="4" IsChecked="{Binding FourDay}"/>
+                    <RadioButton FontSize="15" Margin="10 0 10 0" Content="5" IsChecked="{Binding FiveDay}"/>
+                    <RadioButton FontSize="15" Margin="10 0 10 0" Content="6" IsChecked="{Binding SixDay}"/>
+                    <RadioButton FontSize="15" Margin="10 0 10 0" Content="7" IsChecked="{Binding SevenDay}"/>
+                </StackPanel>
+                <Label FontSize="15" Grid.Row="2" FontWeight="Bold" Grid.ColumnSpan="2" Content="Please make jacket selections for each day"/>
+
+                <StackPanel Grid.Row="3" Grid.ColumnSpan="2">
+
+                    <StackPanel  Name="Day1Panel" Visibility="{Binding Path=Day1Visible, Converter={StaticResource BoolToVisConverter}}" Height="30" Orientation="Horizontal" HorizontalAlignment="Stretch">
+                        <Label Margin="12 0 30 0" FontSize ="15" Content="Day 1"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Basic" IsChecked="{Binding Basic1}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Standard" IsChecked="{Binding Standard1}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Deluxe" IsChecked="{Binding Deluxe1}"/>
+                    </StackPanel>
+                    <StackPanel Name="Day2Panel" Visibility="{Binding Path=Day2Visible, Converter={StaticResource BoolToVisConverter}}" Height="30" Orientation="Horizontal">
+                        <Label Margin="12 0 30 0" FontSize ="15" Content="Day 2"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Basic" IsChecked="{Binding Basic2}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Standard" IsChecked="{Binding Standard2}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Deluxe" IsChecked="{Binding Deluxe2}"/>
+                    </StackPanel>
+                    <StackPanel Name="Day3Panel" Visibility="{Binding Path=Day3Visible, Converter={StaticResource BoolToVisConverter}}"  Height="30" Orientation="Horizontal">
+                        <Label Margin="12 0 30 0" FontSize ="15" Content="Day 3"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Basic" IsChecked="{Binding Basic3}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Standard" IsChecked="{Binding Standard3}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Deluxe" IsChecked="{Binding Deluxe3}"/>
+                    </StackPanel>
+                    <StackPanel Height="30" Visibility="{Binding Path=Day4Visible, Converter={StaticResource BoolToVisConverter}}" Orientation="Horizontal">
+                        <Label Margin="12 0 30 0" FontSize ="15" Content="Day 4"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Basic" IsChecked="{Binding Basic4}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Standard" IsChecked="{Binding Standard4}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Deluxe" IsChecked="{Binding Deluxe4}"/>
+                    </StackPanel>
+                    <StackPanel Height="30" Visibility="{Binding Path=Day5Visible, Converter={StaticResource BoolToVisConverter}}" Orientation="Horizontal">
+                        <Label Margin="12 0 30 0" FontSize ="15" Content="Day 5"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Basic" IsChecked="{Binding Basic5}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Standard" IsChecked="{Binding Standard5}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Deluxe" IsChecked="{Binding Deluxe5}"/>
+                    </StackPanel>
+                    <StackPanel Height="30" Visibility="{Binding Path=Day6Visible, Converter={StaticResource BoolToVisConverter}}"  Orientation="Horizontal">
+                        <Label Margin="12 0 30 0" FontSize ="15" Content="Day 6"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Basic" IsChecked="{Binding Basic6}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Standard" IsChecked="{Binding Standard6}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Deluxe" IsChecked="{Binding Deluxe6}"/>
+                    </StackPanel>
+                    <StackPanel Height="30" Margin="0 0 0 10" Visibility="{Binding Path=Day7Visible, Converter={StaticResource BoolToVisConverter}}"  Orientation="Horizontal">
+                        <Label Margin="12 0 30 0" FontSize ="15" Content="Day 7"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Basic" IsChecked="{Binding Basic7}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Standard" IsChecked="{Binding Standard7}"/>
+                        <RadioButton FontSize="15" Margin="15 0 15 0" VerticalContentAlignment="Center" Content="Deluxe" IsChecked="{Binding Deluxe7}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Grid.Row="6" FontSize="15" FontWeight="Bold" Content="Your total is"/>
+                        <Label Grid.Row="6" FontSize="15" FontWeight="Bold" Width="183" />
+                        <Label Grid.Row="6" FontSize="20" HorizontalAlignment="Right" Margin="0 0 10 0" FontWeight="Bold" Grid.ColumnSpan="2" Content="{Binding ToPrint}" ContentStringFormat="C" Width="111" />
+
+                    </StackPanel>
+                        
+                </StackPanel>
+            
+            </Grid>
+            <Button FontSize="15" Grid.Row="6" Content="Calculate" Margin="5,5,4,5" Click="Button_Click_1"/>
+        </Grid>
+    </Grid>
+</Window>

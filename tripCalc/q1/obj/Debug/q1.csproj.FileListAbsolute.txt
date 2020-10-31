@@ -1,0 +1,85 @@
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\bin\Debug\q1.exe.config
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\bin\Debug\q1.exe
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\bin\Debug\q1.pdb
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1_MarkupCompile.cache
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1_MarkupCompile.lref
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.g.resources
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.Properties.Resources.resources
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.exe
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.pdb
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\CostWindow.g.cs
+C:\Users\Admin\Desktop\8010_FINAL_TonyKwak\q1\q1\obj\Debug\CostWindow.baml
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\bin\Debug\q1.exe.config
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\bin\Debug\q1.exe
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\bin\Debug\q1.pdb
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.csprojAssemblyReference.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\CostWindow.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\App.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1_MarkupCompile.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1_MarkupCompile.lref
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\CostWindow.baml
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\MainWindow.baml
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.g.resources
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.Properties.Resources.resources
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.csproj.GenerateResource.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.exe
+C:\Users\Admin\Google Drive\Professional\Conestoga\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.pdb
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\bin\Debug\q1.exe.config
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\bin\Debug\q1.exe
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\bin\Debug\q1.pdb
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.csprojAssemblyReference.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\CostWindow.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\App.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1_MarkupCompile.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1_MarkupCompile.lref
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\CostWindow.baml
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\MainWindow.baml
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.g.resources
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.Properties.Resources.resources
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.csproj.GenerateResource.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.exe
+C:\Users\Admin\Google Drive\Professional\Conestoga\Semester 1\8010\8010_FINAL_TonyKwak\q1\q1\obj\Debug\q1.pdb
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\bin\Debug\q1.exe.config
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\bin\Debug\q1.exe
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\bin\Debug\q1.pdb
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\q1.csprojAssemblyReference.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\CostWindow.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\App.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\q1_MarkupCompile.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\q1_MarkupCompile.lref
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\CostWindow.baml
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\MainWindow.baml
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\q1.g.resources
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\q1.Properties.Resources.resources
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\q1.csproj.GenerateResource.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\q1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\q1.exe
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\q1\q1\obj\Debug\q1.pdb
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\bin\Debug\q1.exe.config
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\bin\Debug\q1.exe
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\bin\Debug\q1.pdb
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\q1.csprojAssemblyReference.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\CostWindow.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\App.g.cs
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\q1_MarkupCompile.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\q1_MarkupCompile.lref
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\CostWindow.baml
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\MainWindow.baml
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\q1.g.resources
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\q1.Properties.Resources.resources
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\q1.csproj.GenerateResource.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\q1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\q1.exe
+C:\Users\Admin\Google Drive\Professional\Conestoga\portfolio\joesJetSkis\q1\obj\Debug\q1.pdb
